@@ -305,7 +305,7 @@ function loadEventFrames() {
 function CreateTableFromJSON() {
     $('#example').DataTable({
         dom: 'Bfrtip',
-        buttons: ['pageLength', 'copy', 'csv', 'excel', 'print'],
+        buttons: ['pageLength', 'csv', 'excel'],
         columns: [{
             title: "Sr.No."
         }, {
